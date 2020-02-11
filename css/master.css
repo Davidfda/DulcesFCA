@@ -5,7 +5,7 @@ body{
 
 #titulo {
   color: #47e4bb;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Fredoka One', cursive;
   font-size: 150px;
   margin: 0;
   padding-top: 2%;
@@ -13,16 +13,25 @@ body{
   text-align: center;
   -webkit-text-stroke: 5px #fea5ad;
 }
+h1 {
+  color: #47e4bb;
+  font-family: 'Fredoka One', cursive;
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+  -webkit-text-stroke: 1px #fea5ad;
+  font-size: 40px;
+}
 
 h2 {
+  font-family: 'Sacramento', cursive;
   color: #ffffdd;
-  font-size: 40px;
+  font-size: 50px;
   margin: 0;
   padding-bottom: 5%;
   padding-top: 1%;
   position: relative;
   text-align: center;
-  -webkit-text-stroke: 1px #c295d8;
 }
 
 h3 {
@@ -31,6 +40,7 @@ h3 {
   padding-bottom: 1%;
   position: relative;
   text-align: center;
+  color: #ffffdd;
 }
 
 img {
@@ -40,7 +50,7 @@ img {
 }
 
 .banner {
-  background-image: url(../img/font3.jpg);
+  background-image: url(../img/banner10.jpg);
   background-size: cover;
   height: 100%;
   position: relative;
@@ -48,16 +58,16 @@ img {
 }
 
 .banner::before {
-  background-color: #ffffff;
+  background-color: #000000;
   content: "";
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.6;
   position: absolute;
   width: 100%;
 }
 
 .catalogo {
-  background-color: #96d1c7;
+  background-color: #b9cced;
   background-size: cover;
   height: 100%;
   margin: 0;
