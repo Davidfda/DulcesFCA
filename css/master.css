@@ -7,7 +7,17 @@ img {
   width: 50px;
 }
 
-div {
+.imagenProducto {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 40px;
+}
+
+.productos {
+  display: block;
+  text-align: center;
+  background-color: #b6ffea;
   margin: 0;
   padding: 0;
 }
@@ -17,8 +27,10 @@ div {
 }
 
 .card {
-  margin-top: 0;
-  background-color: red;
+  border-radius: 40px;
+  background-color: #65587f;
+  text-align: center;
+  display: inline-block;
   width: 20%;
   height: 200px;
 }
