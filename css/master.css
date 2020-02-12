@@ -1,9 +1,10 @@
-body{
+body {
   margin: 0;
   padding: 0;
+  background-color: #21243d;
 }
 
-#titulo {
+h1 {
   color: #47e4bb;
   font-family: 'Fredoka One', cursive;
   font-size: 150px;
@@ -12,15 +13,6 @@ body{
   position: relative;
   text-align: center;
   -webkit-text-stroke: 5px #fea5ad;
-}
-h1 {
-  color: #47e4bb;
-  font-family: 'Fredoka One', cursive;
-  margin: 0;
-  padding: 1%;
-  text-align: center;
-  -webkit-text-stroke: 1px #fea5ad;
-  font-size: 40px;
 }
 
 h2 {
@@ -76,22 +68,40 @@ img {
   width: 100%;
 }
 
-form {
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
+.h1Catalogo {
+  color: #47e4bb;
+  font-family: 'Fredoka One', cursive;
+  margin: 0;
+  padding: 1%;
   text-align: center;
-  width: 100%;
+  -webkit-text-stroke: 1px #fea5ad;
+  font-size: 40px;
 }
 
-.cant {
-  color: yellow;
-  font-size: 20px;
-  border: 0;
-  background-color: #fea5ad;
+.imgProducto {
+  margin-top: 20px;
+  border-radius: 100%;
+  border-width: 20px;
+  border-color: #ffe196;
+  border-style: outset;
+}
+
+.productos {
+  display: block;
+  border-color: #47e4bb;
   border-radius: 30%;
+  border-style: solid;
+  border-width: 20px;
   text-align: center;
-  height: 60px;
-  width: 40%;
+  width: 60%;
+  height: 20%;
+  background-color: #fea5ad;
+}
+
+.contenedorProductos {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
 }
